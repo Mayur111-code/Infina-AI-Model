@@ -91,7 +91,7 @@ function takeCommand(message) {
        speak("नमस्कार! मी तुमची सहाय्यक आहे, सांगा, कशी मदत करू?");
     } else if (message.includes("what is Infina 2.0") || message.includes("infina 2.0 ")) {
         speak("infina 2.0 is a advance AI model of infina infina 2.0 is created by mayur-code ")
-    } else if (message.includes("you are developer") || message.includes("who is developer"){
+    } else if (message.includes("you are developer") || message.includes("who is developer")){
         speak("I am voice assistant develop by Mayur-code")
     } else if (message.includes("are you bad") || message.includes("bad")){
         speak("I'm sorry if my response wasn't what you expected! I'm here to help, so please let me know how I can improve or assist you better.")
