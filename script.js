@@ -91,7 +91,7 @@ function takeCommand(message) {
        speak("नमस्कार! मी तुमची सहाय्यक आहे, सांगा, कशी मदत करू?");
     } else if (message.includes("what is Infina 2.0") || message.includes("infina 2.0 ")) {
         speak("infina 2.0 is a advance AI model of infina infina 2.0 is created by mayur-code ")
-    } else if (message.includes("you are developer")){
+    } else if (message.includes("you are developer") || message.includes("who is developer"){
         speak("I am voice assistant develop by Mayur-code")
     } else if (message.includes("are you bad") || message.includes("bad")){
         speak("I'm sorry if my response wasn't what you expected! I'm here to help, so please let me know how I can improve or assist you better.")
@@ -125,8 +125,6 @@ function takeCommand(message) {
         speak("1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11, 12, 13, 14, 15, 16, 17, 18, 19, 20,21, 22, 23, 24, 25, 26, 27, 28, 29, 30,31, 32, 33, 34, 35, 36, 37, 38, 39, 40,41, 42, 43, 44, 45, 46, 47, 48, 49, 50.")
     } else if (message.includes("1 to 20") || message.includes("type 1 to 20")){
         speak("1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20")
-    } else if (message.includes("tum hi kuthe raha tha ") || message.includes ("tum bhi kuthe raha tha") || message.includes("tumi kute rahata")){
-        speak("मी डिजिटल आहे, मला शारीरिक अस्तित्व नाही.");
     } else if (message.includes("1 2 3") || message.includes("ek do teen")){
         speak("चार पाच सहा सात आठ नऊ दहा!");
     } else if (message.includes("tu kashi aahe")) { 
@@ -135,18 +133,8 @@ function takeCommand(message) {
         speak("हो, मी मराठीत बोलू शकते. तुम्हाला मराठीत काही विचारायचं आहे का?")
     } else if (message.includes("tumse nav kay aahe")){
         speak("माझं नाव Infina आहे. मी Mayur यांच्याकडून तयार करण्यात आलेली सहाय्यक आहे.");
-    } else if (message.includes("tujhe nav kay aahe")){
-        speak("माझं नाव Infina आहे. मी तुमची voice assistant आहे ")
-    } else if (message.includes("tula koni develop kel aahe ")){
-        speak("मला Mayur-code नावाच्या संस्थेने विकसित केलं आहे. ही संस्था voice assistant (AI) उत्तर देण्यासाठी तयार आहे! ")
     } else if  (message.includes("speak hindi")) {
         speak("नमस्ते, मैं आपकी मदद करने के लिए यहाँ हूँ।", "hi-IN");
-    } else if (message.includes("tum meri madad karogi")){
-        speak("Bilkul, main aapki madad karungi! Aapko kis cheez mein madad chahiye?")
-    } else if(message.includes("tumhen kisne banaya hai")){
-        speak("Mujhe Mayur sir ne banaya hai. Main ek voice assistant Ai model hoon, jise human-like conversations karne ke liye train kiya gaya hai. Mera purpose hai aapki madad karna, chahe woh coding ho, knowledge-related questions, ya kuch aur!")
-    } else if (message.includes("me thak gaya hu")){
-        speak("Agar aap thak gaye ho, toh thoda break lena accha rahega. Aap apne dimaag ko relax karne ke liye kuch aise cheezein kar sakte hain: like.....Thodi der ke liye rest lein — Aap ek chhoti si nap le sakte hain ya bas chill kar sakte hain......Deep breathing — Gahri saans lein aur apne aapko relax karein.....Kuch halke music sunen — Aap apne favorite relaxing music sun sakte hain......Thoda walk karein — Agar aap ghar ke andar hain, toh ek chhota sa walk lene se bhi energy mil sakti hai.")
     } else if (message.includes("hindi mein bolo")) {
         speak("Namaste, main Infina hoon. Aapki kya madad kar sakti hoon?");
     } else if (message.includes("open youtube")) {
